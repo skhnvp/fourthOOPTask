@@ -37,7 +37,7 @@ public class Main {
         a.addRoad(new Road(d,110));
         a.addRoad(new Road(f,120));
 
-        b.addRoad(new Road(a, 100));
+        b.addRoad(new Road(a));
         b.addRoad(new Road(c,120));
 
         c.addRoad(new Road(b,110));

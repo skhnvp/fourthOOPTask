@@ -5,7 +5,7 @@ public class Road {
     private int cost = 0;
 
     public Road(City city) {
-        new Road(city, 0);
+        this(city, 0);
     }
 
     public Road(City city, int cost) {
